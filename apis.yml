@@ -1,7 +1,31 @@
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 aid: polyxlabs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/polyxlabs.png
 name: PolyXLabs
-description: PolyXLabs is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  PolyXLabs is a Techstars-backed biotechnology and sustainable-materials company
+  developing biodegradable plastic alternatives from lignocellulose-based biomass,
+  including food waste such as spent coffee grounds. The company produces customized,
+  toxin-free, microplastic-free polymers designed to be lightweight and durable as
+  drop-in replacements for conventional plastics in consumer goods and packaging, with
+  operations across the United States and Europe and headquarters in Martonvasar,
+  Hungary. PolyXLabs currently publishes no public API or developer surface; this
+  profile is maintained as a company record in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/polyxlabs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +35,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Sustainable Materials
+- Biodegradable Plastics
+- Sustainability
+- Packaging
+- Green Chemistry
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/polyxlabs-domain-security.yml
 - type: Website
-  url: https://poliloop.com/
+  url: https://polyxlabs.com/
+- type: PrivacyPolicy
+  url: https://polyxlabs.com/privacy-policy
+- type: Compliance
+  url: https://polyxlabs.com/iso-9001
